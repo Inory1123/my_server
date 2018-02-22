@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+	<servelet>
+		<servelet-name>login</servelet-name>
+		<servelet-class>com.inory.servelet.LoginServelet</servelet-class>
+	</servelet>
+	<servelet-mapping>
+		<servelet-name>login</servelet-name>
+		<url-pattern>/login</url-pattern>
+		<url-pattern>/log</url-pattern>
+	</servelet-mapping>
+	<servelet>
+		<servelet-name>reg</servelet-name>
+		<servelet-class>com.inory.servelet.RegisterServelet</servelet-class>
+	</servelet>
+	<servelet-mapping>
+		<servelet-name>reg</servelet-name>
+		<url-pattern>/reg</url-pattern>
+	</servelet-mapping>
+</web-app>
